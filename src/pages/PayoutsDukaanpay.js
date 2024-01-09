@@ -7,8 +7,6 @@ import NavbarAccount from "../components/NavbarAccount";
 const PayoutsDukaanpay = () => {
   return (
     <div className="font-sub-title-medium bg-black-98 w-full box-border h-[882px] text-left text-xl text-black-12 font-body-2-medium">
-    <div className="relative bg-black-98 w-full h-[882px] text-left text-xl text-black-12 font-body-2-medium">
-
       <BackArrowFalseHelpTrueS
         dashboard="Payouts"
         iconsOutlinedInfo="/outlined--help@2x.png"
