@@ -28,30 +28,36 @@ const FilterFormContainer = () => {
             </div>
             <div className="shrink-0 flex flex-row items-center justify-end gap-[16px]">
               <div className="shrink-0 flex flex-row items-center justify-start gap-[12px]">
-                <div className="rounded bg-black-100 shrink-0 flex flex-row items-center justify-start py-1.5 px-3 gap-[6px] border-[1px] border-solid border-black-85">
-                  <div className="relative leading-[24px]">Sort</div>
+                <div className="cursor-pointer rounded bg-black-100 shrink-0 flex flex-row items-center justify-start py-1.5 px-3 gap-[6px] border-[1px] border-solid border-black-85">
+                  <div className=" relative leading-[24px]">Sort</div>
+                  <button>
                   <img
                     className="relative w-4 h-4 shrink-0 object-cover"
                     alt=""
                     src="/outlined--sort@2x.png"
                   />
+                  </button>
                 </div>
-                <div className="rounded bg-black-100 shrink-0 hidden flex-row items-center justify-start py-1.5 px-3 gap-[6px] border-[1px] border-solid border-black-85">
-                  <div className="relative leading-[24px]">Filter</div>
+                <div className="cursor-pointer rounded bg-black-100 shrink-0 hidden flex-row items-center justify-start py-1.5 px-3 gap-[6px] border-[1px] border-solid border-black-85">
+                  <p className="relative leading-[24px]">Filter</p>
+                  <button className="cursor-pointer">
                   <img
                     className="relative w-4 h-4 overflow-hidden shrink-0 object-cover"
                     alt=""
                     src="/outlined--filters@2x.png"
                   />
+                  </button>
                 </div>
               </div>
-              <div className="relative w-9 h-9">
+              <div className="cursor-pointer  relative w-9 h-9">
                 <div className="absolute top-[0px] right-[0px] rounded box-border w-9 h-9 border-[1px] border-solid border-black-85" />
+                <button className="cursor-pointer">
                 <img
                   className="absolute top-[8px] right-[8px] w-5 h-5 object-cover"
                   alt=""
                   src="/iconsdownload@2x.png"
                 />
+                </button>
               </div>
             </div>
           </div>

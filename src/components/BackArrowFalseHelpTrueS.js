@@ -37,15 +37,15 @@ const BackArrowFalseHelpTrueS = ({
           howToUseFlexShrink="0"
         />
       </div>
-      <div className="self-stretch rounded-md bg-black-95 w-[400px] flex flex-row items-center justify-start py-[9px] px-4 box-border gap-[8px] text-mini text-black-50">
+      <div className="rounded-md bg-black-95 w-[400px] flex flex-row items-center justify-start py-[9px] px-4 box-border gap-[8px] text-mini text-black-50">
         <img
           className="relative w-4 h-4 overflow-hidden shrink-0 object-cover"
           alt=""
           src="/iconssearch@2x.png"
         />
-        <div className="relative leading-[22px]">
+        <p className="relative leading-[22px]">
           Search features, tutorials, etc.
-        </div>
+        </p>
       </div>
       <div className="flex-1 shrink-0 flex flex-row items-start justify-end">
         <Type2 type2FlexShrink="0" />

@@ -6,7 +6,7 @@ import NavbarAccount from "../components/NavbarAccount";
 
 const PayoutsDukaanpay = () => {
   return (
-    <div className="relative bg-black-98 w-full h-[882px] overflow-hidden text-left text-xl text-black-12 font-body-2-medium">
+    <div className="font-sub-title-medium bg-black-98 w-full box-border h-[882px] text-left text-xl text-black-12 font-body-2-medium">
       <BackArrowFalseHelpTrueS
         dashboard="Payouts"
         iconsOutlinedInfo="/outlined--help@2x.png"
@@ -15,7 +15,7 @@ const PayoutsDukaanpay = () => {
         backArrowFalseHelpTrueSTop="0px"
         backArrowFalseHelpTrueSLeft="224px"
       />
-      <div className="absolute top-[96px] left-[calc(50%_-_464px)] w-[1152px] flex flex-col items-start justify-start gap-[32px]">
+      <div className="absolute top-[96px] left-[250px] w-[1152px] flex flex-col items-start justify-start gap-[32px]">
         <OverviewContainer />
         <div className="flex flex-col items-start justify-start gap-[24px]">
           <div className="shrink-0 flex flex-col items-start justify-start gap-[24px]">

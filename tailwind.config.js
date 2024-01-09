@@ -24,13 +24,16 @@ module.exports = {
       },
       spacing: {},
       fontFamily: {
-        "body-2-medium": "'Galano Grotesque'",
         "sub-title-medium": "Inter",
       },
       borderRadius: {
         "10xs": "3px",
         "21xl": "40px",
         "spacing-spacing-04": "8px",
+      },
+      backgroundColor: {
+        'rgba-white-10': 'rgba(255, 255, 255, 0.1)',
+        // Add more custom colors as needed
       },
     },
     fontSize: {

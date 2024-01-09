@@ -44,6 +44,7 @@ const StateActive = ({
   }, [outlinedSettingsWidth1, outlinedSettingsHeight1]);
 
   return (
+    <a href="" className="no-underline">
     <div
       className="rounded-21xl bg-primary-blue flex flex-row items-center justify-start py-1.5 px-4 gap-[6px] text-left text-sm text-black-100 font-sub-title-medium"
       style={stateActiveStyle}
@@ -71,6 +72,7 @@ const StateActive = ({
         />
       )}
     </div>
+    </a>
   );
 };
 
