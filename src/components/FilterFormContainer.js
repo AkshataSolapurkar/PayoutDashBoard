@@ -8,8 +8,8 @@ import StrokeBlack90 from "./StrokeBlack90";
 
 const FilterFormContainer = () => {
   return (
-    <div className="rounded-lg bg-black-100 shadow-[0px_2px_6px_rgba(26,_24,_30,_0.04)] w-[1152px] overflow-hidden flex flex-col items-end justify-start pt-3 px-3 pb-2 box-border text-left text-base text-black-30 font-sub-title-medium">
-      <div className="flex flex-col items-end justify-start gap-[12px]">
+    <div className="rounded-lg bg-black-100 shadow-[0px_2px_6px_rgba(26,_24,_30,_0.04)] w-full overflow-hidden flex flex-col justify-start pt-3 px-3 pb-2 box-border text-left text-base text-black-30 font-sub-title-medium">
+      <div className="flex flex-col justify-start gap-[12px]">
         <div className="self-stretch shrink-0 flex flex-row items-center justify-between">
           <TypeDefaultSizeDefault
             orderIDPhoneOrAName="Order ID or transaction ID"
@@ -62,7 +62,7 @@ const FilterFormContainer = () => {
             </div>
           </div>
         </div>
-        <div className="rounded bg-black-95 w-[1128px] shrink-0 flex flex-row items-center justify-between py-2.5 px-3 box-border">
+        <div className="rounded bg-black-95 shrink-0 flex flex-row items-center justify-between py-2.5 px-3 box-border">
           <img
             className="relative w-5 h-5 object-cover hidden"
             alt=""
@@ -182,7 +182,7 @@ const FilterFormContainer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-black-100 w-[1128px] h-12 flex flex-row items-center justify-between py-3.5 px-3 box-border relative">
+      <div className="bg-black-100  h-12 flex flex-row items-center justify-between py-3.5 px-3 box-border relative">
         <Footer1 colorCode="#281209" />
         <Footer statusMessage="Successful" propBackgroundColor="#17b31b" />
         <CellTableRow
@@ -269,7 +269,7 @@ const FilterFormContainer = () => {
           strokeBlack90IconZIndex="6"
         />
       </div>
-      <div className="bg-black-100 w-[1128px] h-12 flex flex-row items-center justify-between py-3.5 px-3 box-border relative">
+      <div className="bg-black-100  h-12 flex flex-row items-center justify-between py-3.5 px-3 box-border relative">
         <Footer1 colorCode="#281208" />
         <Footer statusMessage="Processing" propBackgroundColor="#999" />
         <CellTableRow
@@ -356,7 +356,7 @@ const FilterFormContainer = () => {
           strokeBlack90IconZIndex="6"
         />
       </div>
-      <div className="bg-black-100 w-[1128px] h-12 flex flex-row items-center justify-between py-3.5 px-3 box-border relative">
+      <div className="bg-black-100  h-12 flex flex-row items-center justify-between py-3.5 px-3 box-border relative">
         <Footer1 colorCode="#281207" />
         <Footer statusMessage="Successful" propBackgroundColor="#17b31b" />
         <CellTableRow
@@ -443,7 +443,7 @@ const FilterFormContainer = () => {
           strokeBlack90IconZIndex="6"
         />
       </div>
-      <div className="bg-black-100 w-[1128px] h-12 flex flex-row items-center justify-between py-3.5 px-3 box-border relative">
+      <div className="bg-black-100 h-12 flex flex-row items-center justify-between py-3.5 px-3 box-border relative">
         <Footer1 colorCode="#281206" />
         <Footer statusMessage="Successful" propBackgroundColor="#17b31b" />
         <CellTableRow
@@ -530,7 +530,7 @@ const FilterFormContainer = () => {
           strokeBlack90IconZIndex="6"
         />
       </div>
-      <div className="bg-black-100 w-[1128px] h-12 flex flex-row items-center justify-between py-3.5 px-3 box-border relative">
+      <div className="bg-black-100 h-12 flex flex-row items-center justify-between py-3.5 px-3 box-border relative">
         <Footer1 colorCode="#281205" />
         <Footer statusMessage="Successful" propBackgroundColor="#17b31b" />
         <CellTableRow
@@ -617,7 +617,7 @@ const FilterFormContainer = () => {
           strokeBlack90IconZIndex="6"
         />
       </div>
-      <div className="bg-black-100 w-[1128px] h-12 flex flex-row items-center justify-between py-3.5 px-3 box-border relative">
+      <div className="bg-black-100 h-12 flex flex-row items-center justify-between py-3.5 px-3 box-border relative">
         <Footer1 colorCode="#281204" />
         <Footer statusMessage="Successful" propBackgroundColor="#17b31b" />
         <CellTableRow

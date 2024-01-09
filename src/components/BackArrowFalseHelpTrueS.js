@@ -24,7 +24,7 @@ const BackArrowFalseHelpTrueS = ({
 
   return (
     <div
-      className="bg-black-100 box-border w-[1216px] flex flex-row items-center justify-start py-3 px-8 gap-[16px] text-left text-xl text-black-12 font-body-2-medium border-b-[1px] border-solid border-black-85"
+      className="bg-black-100 box-border w-full flex flex-row items-center justify-start py-3 px-8 gap-[16px] text-left text-xl text-black-12 font-body-2-medium border-b-[1px] border-solid border-black-85"
       style={backArrowFalseHelpTrueSStyle}
     >
       <div className="flex-1 shrink-0 flex flex-row items-center justify-start gap-[16px]">

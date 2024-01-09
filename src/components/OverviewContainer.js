@@ -58,7 +58,7 @@ const OverviewContainer = () => {
               </div>
             </div>
           </div>
-          <div className="my-0 mx-[!important] absolute top-[118px] left-[0px] rounded-lg bg-hover-blue w-[370.7px] flex flex-row items-start justify-between py-2 px-6 box-border z-[1] text-sm text-black-95 font-body-2-medium">
+          <div className="my-0 mx-[!important] absolute top-[118px] left-[0px] rounded-lg bg-hover-blue w-full flex flex-row items-start justify-between py-2 px-6 box-border z-[1] text-sm text-black-95 font-body-2-medium">
             <div className="relative leading-[20px]">Next payout date:</div>
             <div className="relative leading-[20px] font-medium">
               Today, 04:00PM
